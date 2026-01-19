@@ -1,8 +1,8 @@
 # Affiliation Meditatio
-Les données d'affiliation Meditatio sont obtenues comme ceci :
-1- Récupération des fichiers Adjust sur S3 dans un unique CSV
-2- Traitement du fichier unique CSV( ajout de colonnes)
-3- TCS dans Google Sheet
+Les données d'affiliation Meditatio sont obtenues comme ceci :  
+1- Récupération des fichiers Adjust depuis S3 dans un unique CSV  (compter ~45 minutes)  
+2- Traitement du fichier unique CSV (ajout de colonnes)  
+3- TCD dans Google Sheet  
 
 Ce projet permet de générer et traiter des fichiers CSV Adjust stockés sur l'AWS S3 meditatio.
 
