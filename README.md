@@ -1,4 +1,8 @@
-# merge_s3_csv
+# Affiliation Meditatio
+Les données d'affiliation Meditatio sont obtenues comme ceci :
+1- Récupération des fichiers Adjust sur S3 dans un unique CSV
+2- Traitement du fichier unique CSV( ajout de colonnes)
+3- TCS dans Google Sheet
 
 Ce projet permet de générer et traiter des fichiers CSV Adjust stockés sur l'AWS S3 meditatio.
 
@@ -6,7 +10,7 @@ Ce projet permet de générer et traiter des fichiers CSV Adjust stockés sur l'
 
 - Python 3.8+
 - le gestionnaire d'environnements [uv](https://github.com/astral-sh/uv)
-- Un compte AWS avec accès au S3 de meditatio
+- Un compte AWS avec accès au S3 de meditatio (A obtenir avec equipe tech Meditatio)
 
 ## Installation de uv
 
