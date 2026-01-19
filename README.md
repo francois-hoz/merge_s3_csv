@@ -1,6 +1,6 @@
 # Affiliation Meditatio
 Les données d'affiliation Meditatio sont obtenues comme ceci :  
-1- Récupération des fichiers Adjust depuis S3 dans un unique CSV  (compter ~45 minutes)
+1- Récupération des fichiers Adjust depuis S3 dans un unique CSV  (compter ~45 minutes)  
 2- Traitement du fichier unique CSV (ajout de colonnes)  
 3- TCS dans Google Sheet  
 
